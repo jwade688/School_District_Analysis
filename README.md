@@ -7,7 +7,7 @@ School analysis using Anaconda
 - Recalculate the scores by grade, scores by school spending, scores by school size, and scores by school type.
 
 # District summary analysis:
-With the test scores replaced for math and reading for the Thomas HS 9th graders:
+- With the test scores replaced for math and reading for the Thomas HS 9th graders:
     - The average math score decreased .1
     - The average reading score did not change when rounded to the 10th
     - The % passing math decreased 1%
@@ -16,7 +16,7 @@ With the test scores replaced for math and reading for the Thomas HS 9th graders
 Implications: When applied to the entirety of the dataset, removing these students did not have a huge affect.
 
 # Per school summary analysis:
-With the test scores replaced, this is how Thomas HS was impacted:
+- With the test scores replaced, this is how Thomas HS was impacted:
     - The average math score decreased .067
     - The reading score increased .02
     - The % passing math decreased 26%
@@ -25,13 +25,13 @@ With the test scores replaced, this is how Thomas HS was impacted:
 Implications: removing the Thomas HS scores dramatically decreased the passing percentages. This is because the passing percentages were calculated using the total student population. Since the 9th graders were included in this calculation, the data is skewed. I would recommend recalculating the passing percentages using the total population minus the 9th graders.
 
 # High and low performing schools analysis:
-Without the Thomas HS 9th graders, the % Overall passing decreased 26%. This severly impacted their ranking. They moved from the 2nd to 8th ranked school because of this. Again, I believe this calculation is skewing the data and I would recommend recalculating the passing percentages using the total population minus the 9th graders. When calculated this way, they remain the 2nd ranked school.
+- Without the Thomas HS 9th graders, the % Overall passing decreased 26%. This severly impacted their ranking. They moved from the 2nd to 8th ranked school because of this. Again, I believe this calculation is skewing the data and I would recommend recalculating the passing percentages using the total population minus the 9th graders. When calculated this way, they remain the 2nd ranked school.
 
 # Math and Reading Scores by Grade summary analysis:
-By replacing the Thomas HS 9th grader's math and reading scores with NaN, there was no data to recalculate their average. In the summaries, the correlating scores appear as NaN.
+- By replacing the Thomas HS 9th grader's math and reading scores with NaN, there was no data to recalculate their average. In the summaries, the correlating scores appear as NaN.
 
 # Scores by School Spending summary analysis:
-Thomas HS fell in the $630 = $644 spending per student range. With the test scores replaced for math and reading:
+- Thomas HS fell in the $630 = $644 spending per student range. With the test scores replaced for math and reading:
     - The average math and reading scores did not change.
     - The average % passing math decreased 5%
     - The average % passing reading decreased 5%
@@ -39,7 +39,7 @@ Thomas HS fell in the $630 = $644 spending per student range. With the test scor
 The decrease in % passing can be attributed to the calculation using the total population instead of the total population minus the 9th graders.
 
 # Scores by School Size summary analysis:
-Thomas HS fell in the Medium (1000-2000) student population range. With the test scores replaced for math and reading:
+- Thomas HS fell in the Medium (1000-2000) student population range. With the test scores replaced for math and reading:
     - The average math and reading scores did not change.
     - The average % passing math decreased 6%
     - The average % passing reading decreased 6%
@@ -47,7 +47,7 @@ Thomas HS fell in the Medium (1000-2000) student population range. With the test
 The decrease in % passing can be attributed to the calculation using the total population instead of the total population minus the 9th graders.
 
 # Scores by School Type summary analysis:
-Thomas HS is a Charter school. With the test scores replaced for math and reading:
+- Thomas HS is a Charter school. With the test scores replaced for math and reading:
     - The average math and reading scores did not change.
     - The average % passing math decreased 4%
     - The average % passing reading decreased 4%
