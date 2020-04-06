@@ -25,7 +25,7 @@ School analysis using Anaconda
 - Implications: removing the Thomas HS scores dramatically decreased the passing percentages. This is because the passing percentages were calculated using the total student population. Since the 9th graders were included in this calculation, the data is skewed. I would recommend recalculating the passing percentages using the total population minus the 9th graders.
 
 # High and low performing schools analysis:
-- Without the Thomas HS 9th graders, the % Overall passing decreased 26%. This severly impacted their ranking. They moved from the 2nd to 8th ranked school because of this. Again, I believe this calculation is skewing the data and I would recommend recalculating the passing percentages using the total population minus the 9th graders. When calculated this way, they remain the 2nd ranked school.
+- Without the Thomas HS 9th graders, the % Overall passing decreased 26%. This severly impacted their ranking compared to other schools. They moved from the 2nd to 8th ranked school because of this. Again, I believe this calculation is skewing the data and I would recommend recalculating the passing percentages using the total population minus the 9th graders. When calculated this way, they remain the 2nd ranked school.
 
 # Math and Reading Scores by Grade summary analysis:
 - By replacing the Thomas HS 9th grader's math and reading scores with NaN, there was no data to recalculate their average. In the summaries, the correlating scores appear as NaN.
