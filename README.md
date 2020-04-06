@@ -31,7 +31,7 @@ School analysis using Anaconda
 - By replacing the Thomas HS 9th grader's math and reading scores with NaN, there was no data to recalculate their average. In the summaries, the correlating scores appear as NaN.
 
 # Scores by School Spending summary analysis:
-- Thomas HS fell in the $630 = $644 spending per student range. With the test scores replaced for math and reading:
+- Thomas HS fell in the $630 - $644 spending per student range. With the test scores replaced for math and reading:
     - The average math and reading scores did not change.
     - The average % passing math decreased 5%
     - The average % passing reading decreased 5%
